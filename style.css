@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100;300;700&display=swap');
+
+.nav-wrapper {
+  font-family: 'Texturina', serif;
+  font-weight: bold;
+  box-shadow:3px 3px 5px 6px #b71c1c;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://media.discordapp.net/attachments/778303219637157889/786652724581761075/minecraftserverblur.png");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainbodyheader {
+  text-align:center;
+  padding:10% 10% 1% 10%;
+  font-family: 'Texturina','serif';
+  background-color:#616161;
+  box-shadow:3px 3px 5px 6px #616161;
+}
+.enferatitle {
+  transform: translateY(-180px);
+}
+#wall {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(-170px) translateY(-400px );
+
+}
+
+h3 {
+transform: translateY(-500px);
+padding-bottom:430px;
+background-color:#212121;
+color:whitesmoke;
+font-family:'Texturina', serif;
+text-align:center;
+}
