@@ -40,7 +40,7 @@
 
 h3 {
 transform: translateY(-500px);
-padding-bottom:430px;
+padding-bottom:100px;
 background-color:#212121;
 color:whitesmoke;
 font-family:'Texturina', serif;
@@ -50,6 +50,7 @@ h4 {
 font-family:'Texturina' serif;
 text-align:center;
 color:whitesmoke;
+padding-bottom:100px; 
   
 }
   
