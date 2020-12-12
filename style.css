@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Texturina:ital,wght@0,300;0,400;0,600;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+
+header {
+  --header-back-color:#c62828;
+  --header-fore-color:whitesmoke;
+  --header-hover-back-color: #b71c1c;
+
+
+}
+a {
+font-family: 'Texturina', serif;
+font-weight:bold;
+
+
+}
+
+.join:hover {
+  text-decoration: none;
+}
+.centered {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  font-family: 'Texturina', serif;
+  font-weight:bold;
+  color:whitesmoke;
+  font-size:500%;
+  
+
+}
+
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  font-family: 'Texturina', serif;
+  font-weight:bold;
+  color:whitesmoke;
+  font-size:500%;
+  
+}
+h2 {
+  text-align: center;
+  font-family:'Texturina', serif;
+  
+}
+
+h5 {
+  text-align: center;
+  font-family:'Noto Serif', serif;
+  font-style:italic;
+  color:#222222;
+}
+
+h1 {
+  font-family:'Texturina',serif;
+  font-weight:bold;
+  text-align:center;
+  color:black;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#secondimage {
+  width:"200%";
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  font-family: 'Texturina', serif;
+  font-weight:bold;
+  color:whitesmoke;
+  font-size:500%;
+}
+
+h4 {
+  text-align: center;
+  font-family:'Texturina', serif;
+  color:#222222;
+}
+
+h6 {
+  font-family:"Texturina",serif;
+  font-weight:bold;
+}
+
+#joinbutton {
+  text-decoration:none;
+}
+.infolist {
+  color:black;
+  text-align:center;
+  text-decoration:none;
+}
