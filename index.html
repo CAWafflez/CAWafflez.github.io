@@ -1,15 +1,159 @@
 <!DOCTYPE html>
-<html>
+  <html>
+    <head>
+      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Langar&family=Texturina:ital,wght@0,300;0,400;0,600;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
 
-<head> 
-<style>
+
+header {
+  --header-back-color:#c62828;
+  --header-fore-color:whitesmoke;
+  --header-hover-back-color: #b71c1c;
+
+
+}
+a {
+font-family: 'Texturina', serif;
+font-weight:bold;
+
+
+}
+
+.join:hover {
+  text-decoration: none;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  font-family: 'Texturina', serif;
+  font-weight:bold;
+  color:whitesmoke;
+  font-size:500%;
+  
+
+}
+
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  font-family: 'Texturina', serif;
+  font-weight:bold;
+  color:whitesmoke;
+  font-size:500%;
+  
+}
+h2 {
+  text-align: center;
+  font-family:'Texturina', serif;
+  
+}
+
+h5 {
+  text-align: center;
+  font-family:'Noto Serif', serif;
+  font-style:italic;
+}
 
 h1 {
-font-family:comic sans ms;
+  font-family:'Texturina',serif;
+  font-weight:bold;
+  text-align:center;
+  color:black;
+
 }
-</style>
-</head>
-<body>
-<h1>Site Under Construction...</h1>
-<body>
-<html>
+
+a:hover {
+  text-decoration: none;
+}
+
+#secondimage {
+  width:"200%";
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  font-family: 'Texturina', serif;
+  font-weight:bold;
+  color:whitesmoke;
+  font-size:500%;
+}
+
+h4 {
+  text-align: center;
+  font-family:'Texturina', serif;
+}
+
+
+      </style>
+      <!--Site Info shit-->
+      <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/778303219637157889/786625259276599326/enferasmplogo.png">
+      <title>Enfera SMP - Home</title>
+      <!-- CSS Stylesheet refrence tags -->
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import mini.css-->
+      <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+      <!-- Compiled and minified CSS -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    </head>
+
+    <body>
+      <header class="sticky">
+  <a href="#" class="logo">Enfera</a>
+  <a href="#" class="button">Join</a>
+  <a href="#" class="button">Info</a>
+  <a href="#" class="button">Guidelines</a>
+  <a href="#" class="button">Map</a>
+</header>
+
+
+<video autoplay muted loop id="myVideo" width="100%">
+  <source src="https://cdn.discordapp.com/attachments/523772536731992065/787058871092248636/Sequence_3.mp4" type="video/mp4">
+</video>
+<div class="centered">
+  <img src="https://media.discordapp.net/attachments/366615221776941067/787017498394230794/enferasmplogo.png">
+</div>
+ <div class="centered">Site Under Construction</div>
+ 
+    
+    
+
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+    </body>
+
+            
+  </html>
+        
