@@ -1,4 +1,11 @@
+@font-face {
+  font-family: 'space_grotesklight';
+  src: url('spacegrotesk-webfont.woff2') format('woff2'),
+       url('spacegrotesk-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
+}
 :root {
   --color-bg: black;
   --color-text-main: white;
@@ -6,13 +13,17 @@
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "HK Grotesk";
+  --font-family: "space_grotesklight";
 
+
+  
   
 }
 body {
   
   color: white;
+  background:black;
+  font-family: "space_grotesklight";
 }
 
 h1 {
